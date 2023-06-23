@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:lawrence/eli3.dart';
 class eli2 extends StatelessWidget {
-  const eli2({super.key});
-
+   eli2({super.key});
+final _formkey = GlobalKey();
+TextEditingController emailTextEditingController = TextEditingController();
+   TextEditingController passwordTextEditingController = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
